@@ -10,12 +10,20 @@ namespace rotX
     {
         static void Main(string[] args)
         {
-            string plaintext, key;
+            string plaintext,key;
             Console.WriteLine("Shenoni plaintextin");
             plaintext = Console.ReadLine();
-
+            Adresa:
             Console.WriteLine("Shenoni celesin");
+            
             key = Console.ReadLine();
+            int i = 0;
+            bool result = int.TryParse(key, out i);
+            if (!result) {
+                goto Adresa;
+            }
+
+
 
             string ciphertext = Enkrypt(plaintext, int.Parse(key));
             Console.WriteLine("Ciphertexti i fituar: " + ciphertext);

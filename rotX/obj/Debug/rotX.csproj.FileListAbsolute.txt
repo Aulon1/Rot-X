@@ -5,3 +5,10 @@ C:\Users\hp\source\repos\rotX\obj\Debug\rotX.csprojAssemblyReference.cache
 C:\Users\hp\source\repos\rotX\obj\Debug\rotX.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\rotX\obj\Debug\rotX.exe
 C:\Users\hp\source\repos\rotX\obj\Debug\rotX.pdb
+C:\Users\hp\OneDrive\Documents\GitHub\Rot-X\rotX\obj\Debug\rotX.csprojAssemblyReference.cache
+C:\Users\hp\OneDrive\Documents\GitHub\Rot-X\rotX\obj\Debug\rotX.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Documents\GitHub\Rot-X\rotX\obj\Debug\rotX.exe
+C:\Users\hp\OneDrive\Documents\GitHub\Rot-X\rotX\obj\Debug\rotX.pdb
+C:\Users\hp\OneDrive\Documents\GitHub\Rot-X\rotX\bin\Debug\rotX.exe.config
+C:\Users\hp\OneDrive\Documents\GitHub\Rot-X\rotX\bin\Debug\rotX.exe
+C:\Users\hp\OneDrive\Documents\GitHub\Rot-X\rotX\bin\Debug\rotX.pdb
