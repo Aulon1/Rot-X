@@ -1,0 +1,7 @@
+C:\Users\hp\source\repos\rotX\bin\Debug\rotX.exe.config
+C:\Users\hp\source\repos\rotX\bin\Debug\rotX.exe
+C:\Users\hp\source\repos\rotX\bin\Debug\rotX.pdb
+C:\Users\hp\source\repos\rotX\obj\Debug\rotX.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\rotX\obj\Debug\rotX.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\rotX\obj\Debug\rotX.exe
+C:\Users\hp\source\repos\rotX\obj\Debug\rotX.pdb

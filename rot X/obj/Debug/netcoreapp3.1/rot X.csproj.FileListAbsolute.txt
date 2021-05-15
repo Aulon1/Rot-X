@@ -1,0 +1,15 @@
+C:\Users\hp\source\repos\rot X\bin\Debug\netcoreapp3.1\rot X.exe
+C:\Users\hp\source\repos\rot X\bin\Debug\netcoreapp3.1\rot X.deps.json
+C:\Users\hp\source\repos\rot X\bin\Debug\netcoreapp3.1\rot X.runtimeconfig.json
+C:\Users\hp\source\repos\rot X\bin\Debug\netcoreapp3.1\rot X.runtimeconfig.dev.json
+C:\Users\hp\source\repos\rot X\bin\Debug\netcoreapp3.1\rot X.dll
+C:\Users\hp\source\repos\rot X\bin\Debug\netcoreapp3.1\rot X.pdb
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot X.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot_X.Form1.resources
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot X.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot X.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot X.AssemblyInfo.cs
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot X.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot X.dll
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot X.pdb
+C:\Users\hp\source\repos\rot X\obj\Debug\netcoreapp3.1\rot X.genruntimeconfig.cache
