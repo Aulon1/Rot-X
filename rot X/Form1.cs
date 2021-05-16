@@ -71,7 +71,11 @@ namespace rot_X
 
         private void Dekripto_Click(object sender, EventArgs e)
         {
-        
+            string x = key.Text;
+            int numVal = Int32.Parse(key.Text);
+            string message = ciphertext.Text;
+            decryptertext.Text = rotX.Dekrypt(message, numVal);
+
         }
 
     }
