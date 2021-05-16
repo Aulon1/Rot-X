@@ -20,6 +20,11 @@ namespace rot_X
         public void button1_Click(object sender, EventArgs e)
         {
 
+            string x = key.Text;
+            int numVal = Int32.Parse(key.Text);
+            string message = plaintext.Text;
+            ciphertext.Text = rotX.Enkrypt(message, numVal);
+           
             
         }
 
@@ -45,6 +50,7 @@ namespace rot_X
 
         private void label2_Click(object sender, EventArgs e)
         {
+      
 
         }
 
@@ -57,5 +63,91 @@ namespace rot_X
         {
 
         }
+
+        private void key_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dekripto_Click(object sender, EventArgs e)
+        {
+        
+        }
+
     }
 }
+
+
+public class rotX
+        {
+            public static string Enkrypt(string plaintext, int key)
+            {
+                char[] array = plaintext.ToCharArray();
+                for (int i = 0; i < array.Length; i++)
+                {
+                    int number = (int)array[i];
+
+                    if (number >= 'a' && number <= 'z')
+                    {
+                        if (number + (key % 26) > 122)
+                        {
+
+                            number = 96 + (number + (key % 26) - 122);
+
+                        }
+                        else
+                        {
+                            number += (key % 26);
+                        }
+                    }
+                    else if (number >= 'A' && number <= 'Z')
+                    {
+                        if (number + (key % 26) > 90)
+                        {
+                            number = 64 + (number + (key % 26) - 90);
+                        }
+                        else
+                        {
+                            number += (key % 26);
+                        }
+                    }
+                    array[i] = (char)number;
+                }
+                return new string(array);
+            }
+
+            public static string Dekrypt(string ciphertext, int key)
+            {
+                char[] array = ciphertext.ToCharArray();
+                for (int i = 0; i < array.Length; i++)
+                {
+                    int number = (int)array[i];
+
+                    if (number >= 'a' && number <= 'z')
+                    {
+                        if (number - (key % 26) < 97)
+                        {
+                            number = 123 - (97 - (number - (key % 26)));
+                        }
+                        else
+                        {
+                            number = number - (key % 26);
+                        }
+                    }
+                    else if (number >= 'A' && number <= 'Z')
+                    {
+                        if (number - (key % 26) < 65)
+                        {
+                            number = 65 - (91 - (number - (key % 26)));
+                        }
+                        else
+                        {
+                            number -= (key % 26);
+                        }
+                    }
+                    array[i] = (char)number;
+                }
+                return new string(array);
+            }
+
+        }
